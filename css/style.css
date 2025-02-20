@@ -1,5 +1,5 @@
 body {
-font-family: ;
+
 color: #1a1a1a;
 line-height:  1.5;
 margin: 0;
@@ -27,9 +27,23 @@ main {
  padding: 20px;
     }
 
+
 h1 { 
 font-size: 2rem;
 line-height: 1.3;
 margin-top: 1rem;
 margin-bottom: 1rem;
+}
+
+.article-category {
+display: inline-block;
+text-transform: uppercase;
+font-size: .85rem;
+border-bottom: 2px solid #ff3530;
+}
+
+
+figure > figcaption, .article-category, .datetime, .author, h2, .subtitle, {
+
+
 }
