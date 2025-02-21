@@ -1,5 +1,5 @@
 body {
-
+font-family: "Vesper Libre";
 color: #1a1a1a;
 line-height:  1.5;
 margin: 0;
@@ -43,10 +43,36 @@ border-bottom: 2px solid #ff3530;
 }
 
 .subtitle, figure > figcaption, p:first-child, .author, .datetime, h2 {
-
+    font-family: "Open Sans";
 }
 
 .author, .datetime {
     font-size: .85rem;
     margin-bottom: 0;
+}
+
+figure {
+margin: 1.25em 0;
+}
+
+figure > figcaption {
+font-size: .75rem;
+color: #757575;
+font-style: italic;
+text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a:link {
+color: #1a1a1a;
+text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff3530;
 }
